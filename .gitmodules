@@ -4,3 +4,6 @@
 [submodule "content/themes/theme"]
 	path = content/themes/theme
 	url = git://github.com/Automattic/_s
+[submodule "content/plugins/oath-server"]
+	path = content/plugins/oath-server
+	url = https://github.com/WP-API/OAuth1.git
