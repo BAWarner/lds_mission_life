@@ -10,3 +10,6 @@
 [submodule "content/plugins/oath-server"]
 	path = content/plugins/oath-server
 	url = https://github.com/WP-API/OAuth1.git
+[submodule "public/content/themes/underscores"]
+	path = public/content/themes/underscores
+	url = https://github.com/automattic/_s
