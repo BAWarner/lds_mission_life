@@ -5,22 +5,32 @@ Starting Point for WordPress projects
 
 Setup Files
 
-```
-mkdir project && cd project
-git clone http://github.com/MikePayne/wp_starter .
+```bash
+$ mkdir project && cd project
+$ git clone http://github.com/MikePayne/wp_starter .
 ```
 
 Initialize Git Submodules
-```
-git submodule init
-git submodule update
-```
-
-Setup local configurations
-```
-cp config/env/local-sample.php config/env/local.php
+```bash
+$ git submodule init
+$ git submodule update
 ```
 
-Change settings in the new local.php file to match your environment needs
+Add dev domain to your hosts file
+```bash
+$ echo "192.168.33.10  local.example.com" >> /etc/hosts
+```
+
+Run Vagrant's provisioning and connect via ssh
+```bash
+$ vagrant up
+$ vagrant ssh
+```
+
 Update Hashing Salts to a more secure and unique phrase
-Navigate to your site in the browser to configure the database via the install wizard
+Navigate to your site in the browser at http://local.example.com/wp-admin
+
+```
+Username: admin
+Password: password
+```
