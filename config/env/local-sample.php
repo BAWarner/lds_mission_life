@@ -4,7 +4,7 @@
 define('WP_HOME', 'http://local.example.com');
 define('WP_SITEURL', WP_HOME.'/wordpress');
 
-define('WP_CONTENT_DIR', APP_ROOT.'/content');
+define('WP_CONTENT_DIR', APP_ROOT.'/public/content');
 define('WP_CONTENT_URL', WP_HOME.'/content');
 
 
