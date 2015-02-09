@@ -1,3 +1,4 @@
+.DS_Store
+.vagrant
 config/env/local.php
-.htaccess
-content/uploads
+public/.htaccess
