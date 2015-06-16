@@ -1,15 +1,3 @@
 [submodule "wordpress"]
 	path = public/wordpress
 	url = git://github.com/WordPress/WordPress.git
-[submodule "content/themes/underscores"]
-	path = content/themes/underscores
-	url = git://github.com/Automattic/_s
-[submodule "content/themes/compass"]
-	path = content/themes/compass
-	url = git://github.com/FlagshipWP/Compass
-[submodule "content/plugins/oath-server"]
-	path = content/plugins/oath-server
-	url = https://github.com/WP-API/OAuth1.git
-[submodule "public/content/themes/underscores"]
-	path = public/content/themes/underscores
-	url = https://github.com/automattic/_s
